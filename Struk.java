@@ -5,5 +5,8 @@ public interface Struk {
     String NAMA_PT = "Pt. pesona Natasha Gemilang";
     String TELP_KLINIK = "Call Center : 150500";
 
+    //template untuk footer paling bawahnya
+    String Footer_1= "Cocokkan kembali transaksi pembelian anda dengan struk/nota transaksi yang telah anda terima";
+    String Footer_2= "Terima kasih atas kunjungan anda";
     void cetakBarisStruk();
-} 
+}
