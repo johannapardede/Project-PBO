@@ -1,0 +1,35 @@
+public class Kasir {
+    private String namaKasir;
+    private String noTelepon;
+    private String shift; // Atribut tambahan untuk Shift ("Pagi" atau "Sore")
+
+    public Kasir(String namaKasir, String noTelepon, String shift) {
+        this.namaKasir = namaKasir;
+        this.noTelepon = noTelepon;
+        this.shift = shift;
+    }
+
+    public void setNamaKasir(String namaKasir) {
+        this.namaKasir = namaKasir;
+    }
+
+    public String getNamaKasir() {
+        return namaKasir;
+    }
+
+    public void setNoTelepon(String noTelepon) {
+        this.noTelepon = noTelepon;
+    }
+
+    public String getNoTelepon() {
+        return noTelepon;
+    }
+
+    public void setShift(String shift) {
+        this.shift = shift;
+    }
+
+    public String getShift() {
+        return shift;
+    }
+}
