@@ -6,4 +6,4 @@ public interface Struk {
     String TELP_KLINIK = "Call Center : 150500";
 
     void cetakBarisStruk();
-} kania jelek banget
+} 
